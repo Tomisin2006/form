@@ -1,0 +1,47 @@
+body{
+    background-image: url(pic.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    height: 100vh; 
+    margin: 0; 
+}
+.loginpage{
+    background-color: white;
+    margin: 100px auto;       
+    max-width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+    padding: 30px;             
+    text-align: center;        
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    }
+    .error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.loginpage label {
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 0.5px;
+  text-align: left;}
+
+.loginpage button {
+  width: 70%;
+  padding: 12px;
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.loginpage input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid  lightgray;
+  border-radius: 8px;
+  font-size: 14px;}
